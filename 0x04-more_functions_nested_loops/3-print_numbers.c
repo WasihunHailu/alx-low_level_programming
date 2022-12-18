@@ -4,12 +4,11 @@
  */
 void print_numbers(void)
 {
-	int num = 0;
+	int i;
 
-	while (num < 10)
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar('0' + num);
-		num++;
+		_putchar(i + '0');
 	}
 	_putchar('\n');
 }
